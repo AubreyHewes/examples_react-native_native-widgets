@@ -1,0 +1,13 @@
+{
+  "name": "examples_react-native_native-widgets",
+  "version": "0.0.0-alpha1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "mkdir android/app/src/main/assets; react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --sourcemap-output android/app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.34.0"
+  }
+}
